@@ -8,75 +8,69 @@ namespace TestsUnitairesOfTheDead
 {
     public class Maths
     {
-        public int age = 10;
-        public float time = 10.3f;
-        public string name = "Toto";
-        public bool isOk = false;
-
         public int Add(int A, int B)
         {
-            return A + B;
+            throw new NotImplementedException();
         }
 
         public int Substract(int A, int B)
         {
-            return A - B;
+            throw new NotImplementedException();
         }
 
         public float Multiply(float A, float B)
         {
-            return A * B;
+            throw new NotImplementedException();
         }
 
         public float Divide(float A, float B)
         {
-            return A / B;
+            throw new NotImplementedException();
         }
 
         public int Modulo(int A, int B)
         {
-            return A % B;
+            throw new NotImplementedException();
         }
 
         public float Double(float number)
         {
-            return 2 * number;
+            throw new NotImplementedException();
         }
 
         public float RectanglePerimeter(float width, float height)
         {
-            return Double(width) + Double(height);
+            throw new NotImplementedException();
         }
 
         public float RectangleArea(float width, float height)
         {
-            return width * height;
+            throw new NotImplementedException();
         }
 
         public int CalculateAge(int birthyear)
         {
-            return DateTime.Now.Year - birthyear;
-
+            throw new NotImplementedException();
         }
 
         public float CalculateBMI(float height, float mass)
         {
-            return mass / (height * height);
+            throw new NotImplementedException();
         }
 
         public float CelsiusToFahrenheit(float celsius)
         {
-            return celsius * 9 / 5 + 32;
+            throw new NotImplementedException();
         }
 
         public float FahrenheitToCelsius(float fahrenheit)
         {
-            return (fahrenheit - 32) * 5 / 9;
+            throw new NotImplementedException();
         }
 
         public string AddZ(string word)
         {
-            return word + "Z";
+            throw new NotImplementedException();
         }
 
     }
